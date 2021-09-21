@@ -7,10 +7,63 @@ Common*
   padding: 0;
 }
 
+body{
+  background-color: black;
+}
+
 
 /****************
 Utility*
 *****************/
 .d_flex{
   display: flex;
+}
+
+/****************
+Header*
+*****************/
+#site_header .container{
+  background-color: #DEDEDE;
+  justify-content: space-between;
+  align-items: center;
+      border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.button_window{
+  gap: 8px;
+  padding: 3px 10px;
+}
+
+.button_window .circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+}
+
+.button_window .red{
+  background-color: #FC605C;
+}
+.button_window .yellow{
+  background-color: #FDBC40;
+}
+.button_window .green{
+  background-color: #33C84A;
+}
+
+.id_meeting{
+
+}
+
+.view_menu{
+  justify-content: flex-end;
+}
+.view_menu button{
+  background-color: #303030;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
 }

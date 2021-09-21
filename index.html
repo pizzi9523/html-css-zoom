@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zoom</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <header id="site_header"></header>
+  <header id="site_header">
+    <div class="container d_flex">
+      <div class="button_window d_flex">
+        <button class="circle red"></button>
+        <button class="circle yellow"></button>
+        <button class="circle green"></button>
+      </div>
+      <div class="id_meeting">
+        Zoom Meeting ID: 20156248
+      </div>
+    </div>
+    <div class="view_menu d_flex">
+      <button class="view">
+        <i class="fas fa-eye"></i>
+        Speaker View
+      </button>
+      <button class="expand">
+        <i class="fas fa-expand-arrows-alt"></i>
+      </button>
+    </div>
+  </header>
   <!-- /#site_header -->
 
   <main id="site_main"></main>
@@ -18,4 +42,5 @@
   <footer id="site_footer"></footer>
   <!-- /#site_footer -->
 </body>
+
 </html>
