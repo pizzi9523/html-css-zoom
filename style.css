@@ -11,6 +11,10 @@ body{
   background-color: black;
 }
 
+main{
+  color: white;
+}
+
 
 /****************
 Utility*
@@ -26,8 +30,8 @@ Header*
   background-color: #DEDEDE;
   justify-content: space-between;
   align-items: center;
-      border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .button_window{
@@ -66,4 +70,45 @@ Header*
   border: none;
   border-radius: 5px;
   margin: 10px;
+}
+
+/****************
+Main*
+*****************/
+#site_main .container{
+  justify-content: space-between;
+  
+
+}
+.column{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.column i{
+ color: #7F7F7F;
+}
+
+.central{
+  flex-grow: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.cam{
+  flex-grow: 1;
+}
+
+.image_wrapper{
+  position: relative;
+}
+
+.mic{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #0000007a;
+  padding: 3px;
 }
