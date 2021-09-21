@@ -9,12 +9,16 @@ Common*
 
 body{
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 main{
   color: white;
 }
 
+img{
+   width: 100%;
+}
 
 /****************
 Utility*
@@ -23,12 +27,23 @@ Utility*
   display: flex;
 }
 
+.green{
+  color: #51C623;
+}
+
+.special{
+  padding: 5px 20px 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /****************
 Header*
 *****************/
 #site_header .container{
   background-color: #DEDEDE;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -57,7 +72,7 @@ Header*
 }
 
 .id_meeting{
-
+  margin: auto;
 }
 
 .view_menu{
@@ -89,6 +104,9 @@ Main*
 .column i{
  color: #7F7F7F;
 }
+.column.right i{
+  color: #39BBFC;
+}
 
 .central{
   flex-grow: 1;
@@ -103,6 +121,7 @@ Main*
 
 .image_wrapper{
   position: relative;
+  margin: 2.5px 5px;
 }
 
 .mic{
@@ -111,4 +130,39 @@ Main*
   bottom: 0;
   background-color: #0000007a;
   padding: 3px;
+}
+
+/****************
+Footer*
+*****************/
+#site_footer{
+  background-color: #212324 ;
+  color: #DCDCDC;
+  margin-top: 50px;
+}
+
+#site_footer .container{
+  justify-content: space-between;
+}
+#site_footer .control{
+  padding: 5px 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#site_footer .center .control{
+  padding: 5px 20px;
+}
+
+.control_text{
+  padding-top: 3px;
+}
+
+
+#site_footer .right{
+  align-items: center;
+  padding: 0 10px;
+  color: #FB5751;
+  background-color: #4A4B4C;
 }
